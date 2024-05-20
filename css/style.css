@@ -1,0 +1,390 @@
+.text1 h3 {
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text1 h1 {
+color: #000;
+font-family: Helvetica;
+font-size: 49px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text1 {
+    
+    margin-top: 84px;
+    margin-left: 144px;
+}    
+.s1 {
+    margin: 57px 0 70px 0;
+}
+.container {
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 144px;
+}
+.forms {
+    display: flex;
+    justify-content:space-between ;
+    gap: 20px;
+}
+.leftform {
+    max-width: 756px;
+    width: 100%;
+    height: 298px;
+}
+.leftform textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 23px 21px;
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background-color: #f8f8f8;
+    color: #99999a;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+::placeholder {
+    color: #99999a;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.rightforms {
+    width: 370px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 370px;
+    height: 60px;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background: #f8f8f8;
+    padding: 21px 19px;
+}
+
+input[type="submit"] {
+    background-color: #5968f4;
+    color: #fbfbff;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+
+
+.sect2 {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #5968f4;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h3 {
+    color: #4e4d54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #99999a;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.s3 {
+    max-width: 1318px;
+    margin: 61px;
+}
+.photos {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    max-width: 1550px;
+    width: 100%;
+    height: 372px;
+    background-color: #000000;
+    padding-top: 63px;
+    display: flex;
+   
+}
+.s4 {
+    max-width: 1318px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot {
+    max-width: 1300px;
+    display: flex;
+}
+.info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 27px;
+    margin-right: 191px;
+}
+.info h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p {
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icons2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    gap: 7px;
+}
+.twitter {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #edeef6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+}
+.useful {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.useful h1 {
+    width: 108px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ategs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 5px;
+}
+.ategs a {
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contact h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cont {
+    width: 213px;
+    display: flex;
+    gap: 14px;
+}
+.cont a {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width: 1200px) {
+    .container, .forms, .photos, .foot, .s4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container, .forms {
+        flex-direction: column;
+    }
+
+    .rightforms, input[type="text"], input[type="email"], input[type="submit"] {
+        width: 100%;
+    }
+
+    .forms {
+        align-items: center;
+    }
+
+    .photos {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text1 {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .text1 h1 {
+        font-size: 35px;
+    }
+
+    .sect2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .s3, .s4, .foot {
+        margin: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .info, .useful, .contact {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text1 {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .text1 h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .icons {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card a {
+        font-size: 14px;
+    }
+
+    footer {
+        padding-top: 20px;
+    }
+
+    .info h1, .useful h1, .contact h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
